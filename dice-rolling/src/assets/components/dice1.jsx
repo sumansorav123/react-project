@@ -33,7 +33,7 @@ function Dice1() {
         <div className='flex flex-col items-center gap-10 bg-gray-800 p-10 rounded-lg'>
         <h1 className='text-2xl font-bold  text-orange-400'>Dice Rolling Game</h1>
         <div className='flex gap-5 text-9xl text-cyan-600'>
-            <div className='hover:scale-110 transition duration-300 ease-in-out hover:text-cyan-300'>
+            <div className='hover:scale-110 transition duration-300 ease-in-out hover:text-cyan-300 '>
                    {diceSide[dice1]}
             </div>
             <div className='hover:scale-110 transition duration-300 ease-in-out hover:text-cyan-300'>
